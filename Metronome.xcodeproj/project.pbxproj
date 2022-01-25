@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192585D52780F91900911F24 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585D42780F91900911F24 /* PickerView.swift */; };
+		1983DF2A2782829200708423 /* Low Seiko SQ50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1983DF292782829200708423 /* Low Seiko SQ50.wav */; };
 		19FE3F14277C3479005B95C3 /* MetronomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE3F13277C3479005B95C3 /* MetronomeApp.swift */; };
 		19FE3F16277C3479005B95C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE3F15277C3479005B95C3 /* ContentView.swift */; };
 		19FE3F18277C347A005B95C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FE3F17277C347A005B95C3 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		19FE3F25277C347B005B95C3 /* MetronomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE3F24277C347B005B95C3 /* MetronomeTests.swift */; };
 		19FE3F2F277C347B005B95C3 /* MetronomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE3F2E277C347B005B95C3 /* MetronomeUITests.swift */; };
 		19FE3F31277C347B005B95C3 /* MetronomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE3F30277C347B005B95C3 /* MetronomeUITestsLaunchTests.swift */; };
+		19FE3F3E277E35E8005B95C3 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE3F3D277E35E8005B95C3 /* Metronome.swift */; };
+		19FE3F42277E45C4005B95C3 /* High Seiko SQ50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 19FE3F41277E45C4005B95C3 /* High Seiko SQ50.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192585D42780F91900911F24 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		1983DF292782829200708423 /* Low Seiko SQ50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Low Seiko SQ50.wav"; sourceTree = "<group>"; };
 		19FE3F10277C3479005B95C3 /* Metronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FE3F13277C3479005B95C3 /* MetronomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeApp.swift; sourceTree = "<group>"; };
 		19FE3F15277C3479005B95C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,8 @@
 		19FE3F2A277C347B005B95C3 /* MetronomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetronomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FE3F2E277C347B005B95C3 /* MetronomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeUITests.swift; sourceTree = "<group>"; };
 		19FE3F30277C347B005B95C3 /* MetronomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19FE3F3D277E35E8005B95C3 /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		19FE3F41277E45C4005B95C3 /* High Seiko SQ50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "High Seiko SQ50.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,14 @@
 		19FE3F12277C3479005B95C3 /* Metronome */ = {
 			isa = PBXGroup;
 			children = (
+				19FE3F41277E45C4005B95C3 /* High Seiko SQ50.wav */,
+				1983DF292782829200708423 /* Low Seiko SQ50.wav */,
+				19FE3F3D277E35E8005B95C3 /* Metronome.swift */,
 				19FE3F13277C3479005B95C3 /* MetronomeApp.swift */,
 				19FE3F15277C3479005B95C3 /* ContentView.swift */,
 				19FE3F17277C347A005B95C3 /* Assets.xcassets */,
 				19FE3F19277C347A005B95C3 /* Preview Content */,
+				192585D42780F91900911F24 /* PickerView.swift */,
 			);
 			path = Metronome;
 			sourceTree = "<group>";
@@ -231,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1983DF2A2782829200708423 /* Low Seiko SQ50.wav in Resources */,
 				19FE3F1B277C347A005B95C3 /* Preview Assets.xcassets in Resources */,
+				19FE3F42277E45C4005B95C3 /* High Seiko SQ50.wav in Resources */,
 				19FE3F18277C347A005B95C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FE3F3E277E35E8005B95C3 /* Metronome.swift in Sources */,
 				19FE3F16277C3479005B95C3 /* ContentView.swift in Sources */,
+				192585D52780F91900911F24 /* PickerView.swift in Sources */,
 				19FE3F14277C3479005B95C3 /* MetronomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
